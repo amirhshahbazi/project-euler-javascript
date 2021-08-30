@@ -1,6 +1,6 @@
 # project-euler-javacript
 
-#Overview
+# Overview
 A collection of tested solutions of the Project Euler with JavaScript.
 
 * The User Interface of the project isn't implemented yet. Solutions are in the `problems` directory and each problem with it's solution resides in a separated directory inside it.
@@ -9,7 +9,7 @@ A collection of tested solutions of the Project Euler with JavaScript.
 
 * Each test must follow a time limit rule of less than 60 seconds to be efficient.
 
-##How to run the project
+## How to run the project
 ``` bash
 # install dependencies
 $ npm install

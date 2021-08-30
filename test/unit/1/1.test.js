@@ -4,5 +4,5 @@ import { runSolution } from '../../../problems/utils'
 test(`#${problem.number} --- ${problem.title}`, () => {
   const result = runSolution(problem.solution)
   expect(result.result).toBe(problem.answer)
-  expect(result.executionTime < 60000)
+  expect(result.executionTime).toBeLessThan(60000)
 })
