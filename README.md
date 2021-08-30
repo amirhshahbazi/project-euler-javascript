@@ -1,4 +1,4 @@
-# project-euler-javacript
+# project-euler-javascript
 
 # Overview
 A collection of tested solutions of the Project Euler with JavaScript.
