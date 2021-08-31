@@ -12,6 +12,19 @@ function solution() {
   }
 
   return sum
+
+  // slower solution
+  // let firstTerms = [1, 2]
+  // let sum = 2
+  // let sumOfTerms = 0
+  // while (true) {
+  //   sumOfTerms = firstTerms.reduce((s, v) => s + v)
+  //   if (sumOfTerms > 4_000_000) break
+  //   firstTerms.push(sumOfTerms)
+  //   firstTerms = firstTerms.slice(1, 3)
+  //   if (sumOfTerms % 2 === 0) sum += sumOfTerms
+  // }
+  // return sum
 }
 
 const problem = new Problem(
