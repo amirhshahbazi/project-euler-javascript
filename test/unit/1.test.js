@@ -1,5 +1,5 @@
-import { problem } from '../../../problems/1'
-import { runSolution } from '../../../problems/utils'
+import { problem } from '../../problems/1'
+import { runSolution } from '../../problems/utils'
 
 test(`#${problem.number} --- ${problem.title}`, () => {
   const result = runSolution(problem.solution)
